@@ -1,10 +1,9 @@
-# Anchor - Elegant and minimalist theme for the fish shell
-# https://github.com/n1c00o/fish-anchor
+# I use fish shell theme Anchor and this is just a really sloppy, dirty way of making it work.
 
 function fish_greeting
   if type -q fish_logo
     bash ~/shark_logo.sh
     #fish_logo blue cyan red
-    echo -e "$_BOLD$_BLUE$(weather)$_RESET"
+    #echo -e "$_BOLD$_BLUE$(weather)$_RESET"
   end
 end
